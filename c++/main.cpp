@@ -83,8 +83,6 @@ public:
     }
 
 
-
-
     int turnos(int turnoAnt){
 
 
@@ -94,9 +92,6 @@ public:
         }
         else if(turnoAnt%2!=0){
             return turnoAnt;
-
-
-
         }
     }
 
@@ -128,13 +123,7 @@ public:
         {1, -1}: Movimiento diagonal inferior izquierda (1 en fila, -1 en columna).
         {1, 0}: Movimiento hacia abajo (1 en fila, 0 en columna).
         {1, 1}: Movimiento diagonal inferior derecha (1 en fila, 1 en columna).
-
-
-
-
-
-
-            */
+        */
         bool movimientoValido = false;
 
         for (int i = 0; i < 8; i++) {
@@ -177,8 +166,6 @@ public:
 
         return movimientoValido;
     }
-
-
 
 
     void colocarFicha() {
@@ -275,9 +262,6 @@ public:
 
     }
 
-
-
-
     int obtenerJugadorGanador() {
         int fichasNegras = 0;
         int fichasBlancas = 0;
@@ -315,8 +299,6 @@ public:
             ganadorA=ganador;
         }
 
-
-
     }
 
 
@@ -334,8 +316,6 @@ public:
         string ganador=ganadorA;
         return ganador;
     }
-
-
 
 };
 
@@ -418,8 +398,6 @@ public:
             std::cerr << "Error al abrir el archivo para guardar el historial de partidas." << std::endl;
         }
     }
-
-
 
     void imprimirArchivoTexto() {
         string nombreArchivo = "historial.txt";
@@ -523,11 +501,6 @@ void jugarPartida() {
 }
 
 //------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-
-
 
 
 int main() {

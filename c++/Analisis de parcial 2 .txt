@@ -55,4 +55,4 @@ Clase OthelloApp:
 
 La clase OthelloApp actúa como la interfaz principal que controla el flujo del juego. Es responsable de la interacción con el usuario a través de la consola, incluyendo la visualización del tablero, la recepción de las jugadas de los jugadores y la presentación del historial de partidas.
 
-Atributos de cada clase: 
+

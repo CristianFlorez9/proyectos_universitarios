@@ -1,0 +1,58 @@
+Contextualizacion del problema: 
+
+El desafío que debemos abordar consiste en la implementación del juego de mesa Othello en el lenguaje de programación C++, con un enfoque principal en la programación orientada a objetos (POO) para resolverlo. Para lograrlo, es esencial que dividamos el analisis del problema en varios pasos, el primero de ellos es estudiar y analizar las reglas y la lógica del juego, lo que nos permitirá realizar una implementación exitosa en C++.
+
+Ya analizadas las reglas del juego, podemos darnos cuenta de que este juego de mesa se compone principalmente de fichas negras y blancas, y de una cuadrícula en la realización de la implementación. Las fichas negras serán asteriscos (*) y las fichas blancas guiones (-). El tablero es de 8x8, por lo tanto, tiene 64 casillas. Es importante destacar que al principio del juego, las cuatro casillas del centro están ocupadas por dos filas de fichas blancas y dos filas de fichas negras.Cabe resaltar que las fichas son diferente color por que estamos habldno de dos jugadores diferentesl un jugdador para las negras y uno para las blancas.
+
+Othello tiene ciertos movimientos reglas y condiciones para ganar las cuales resumiremos de manera breve: 
+
+Movimientos:
+
+-El juego comienza con las cuatro fichas iniciales en el centro del tablero, dos de cada color.
+
+-En los turnos, cada jugador debe colocar una ficha de su color en el tablero en una casilla vacía.
+
+-Para poner una ficha, se requiere rodear al menos una ficha del oponente con las fichas propias en una línea horizontal, vertical o diagonal. Al hacerlo, las fichas del oponente atrapadas entre las fichas del jugador se voltean y cambian de color.
+
+-Es obligatorio realizar al menos una captura en cada turno si existe una jugada válida disponible.
+
+Ganar el Juego:
+
+-La partida finaliza cuando no hay más movimientos disponibles para ninguno de los jugadores o cuando todas las casillas del tablero están ocupadas.
+
+-El ganador se determina contando las fichas de cada color en el tablero al final del juego. El jugador con más fichas de su color es declarado vencedor.
+
+
+Después de completar este paso crucial, que es de fundamental importancia para comprender el funcionamiento del juego, procederemos a analizar las metodologías y estrategias necesarias para llevar a cabo la implementación de este juego en el lenguaje C++. Este análisis nos permitirá abordar el desarrollo del programa con un enfoque informado y estratégico.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Diseño de la solucion:
+
+Algunas de las clases que se utilizaran para el proceso de implementacion seran: 
+
+Clase Tablero:
+
+La clase Tablero modela el tablero de Othello con una matriz 8x8 para representar las fichas.
+
+Clase Jugador:
+
+Cada instancia de la clase Jugador representa a un jugador, manteniendo un registro de su nombre y el color de sus fichas (blancas o negras).
+
+Clase Juego:
+
+La clase Juego asume la responsabilidad de administrar el juego, incluyendo la lógica del juego, como las reglas para realizar movimientos válidos y el seguimiento del turno actual.
+
+Clase Ficha:
+
+La clase Ficha podría ser utilizada para representar las fichas en el tablero, donde cada ficha contendría información sobre su color (blanco o negro) y su posición en el tablero.
+
+Clase HistorialPartidas:
+
+Para cumplir con el requisito de guardar los resultados de las partidas, se puede crear la clase HistorialPartidas para gestionar y almacenar el historial de partidas jugadas. Esta clase mantiene una lista de partidas con detalles como los jugadores, la fecha y hora, el resultado y la cantidad de fichas al final de la partida.
+
+Clase OthelloApp:
+
+La clase OthelloApp actúa como la interfaz principal que controla el flujo del juego. Es responsable de la interacción con el usuario a través de la consola, incluyendo la visualización del tablero, la recepción de las jugadas de los jugadores y la presentación del historial de partidas.
+
+Atributos de cada clase: 

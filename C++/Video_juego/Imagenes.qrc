@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Imagenes/Imagen.jpg</file>
+        <file>D:/Descargas/palneta alienigena.jpg</file>
+        <file>Imagenes/71Zk38XCpKSYKeBus.jpg</file>
+        <file>D:/Descargas/spriteMortyversionFinal (1).png</file>
+        <file>Imagenes/Pocket_Mortys-Super_Fan_Rick-side1-1.7.1 (1).png</file>
+        <file>Imagenes/Redimiension saltos (1).jpg</file>
+        <file>Imagenes/alien-sv-2_1 (1).png</file>
+        <file>Imagenes/Pocket_Mortys-Super_Fan_Rick-side1-1.7.1 (2).png</file>
+        <file>Imagenes/priteDiamond (1).png</file>
+        <file>Imagenes/SpriteDiamante (1).png</file>
+        <file>Imagenes/SpriteDiamante (1) .png</file>
+        <file>Imagenes/spriteDiamanteDefinitivo.png</file>
+        <file>Imagenes/diamanteY.png</file>
+        <file>Imagenes/71Zk38XCpKSYKeBus (2).jpg</file>
+        <file>Imagenes/SpriteMorty (1).png</file>
+    </qresource>
+</RCC>
